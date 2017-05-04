@@ -38,7 +38,7 @@ using namespace std;
     SurfFeatureDetector detector(minHessian);
     vector<KeyPoint> keypoints_1, keypoints_2;
     
-    // 3. using dector function to find the keypoints and storage it to vector
+    // 3. using detector function to find the keypoints and storage it to vector
     detector.detect(srcImg1, keypoints_1);
     detector.detect(srcImg2, keypoints_2);
     
