@@ -24,8 +24,8 @@
 
 - (IBAction)button:(UIButton *)sender {
     self.inputType = sender.tag;
-    UIImage *img1 = [UIImage imageNamed:@"image1"];
-    UIImage *img2 = [UIImage imageNamed:@"image2"];
+    UIImage *img1 = [UIImage imageNamed:@"download"];
+    UIImage *img2 = [UIImage imageNamed:@"logo-apple"];
     OpenCVUtilities *openCV = [[OpenCVUtilities alloc] init];
     switch (self.inputType) {
         case KeyPoints:

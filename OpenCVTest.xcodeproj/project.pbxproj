@@ -25,8 +25,6 @@
 		50940B361E7FD4C4006A03CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50940B341E7FD4C4006A03CD /* LaunchScreen.storyboard */; };
 		50940B3F1E7FD4F9006A03CD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50940B3E1E7FD4F9006A03CD /* AssetsLibrary.framework */; };
 		50DB88941EB87AF300D88E01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DB88931EB87AF300D88E01 /* Images.xcassets */; };
-		50DB88961EB87B5300D88E01 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50DB88951EB87B5300D88E01 /* image1.jpg */; };
-		50DB88981EB87B5A00D88E01 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50DB88971EB87B5A00D88E01 /* image2.jpg */; };
 		50DB889E1EB9A65900D88E01 /* OpenCVUtilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50DB889D1EB9A65900D88E01 /* OpenCVUtilities.mm */; };
 		50DB88A11EB9A76200D88E01 /* ButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DB88A01EB9A76200D88E01 /* ButtonsViewController.m */; };
 /* End PBXBuildFile section */
@@ -56,8 +54,6 @@
 		50940B441E812165006A03CD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		50940B451E81236B006A03CD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		50DB88931EB87AF300D88E01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
-		50DB88951EB87B5300D88E01 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
-		50DB88971EB87B5A00D88E01 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		50DB889C1EB9A65900D88E01 /* OpenCVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenCVUtilities.h; path = OpenCVTest/OpenCVUtilities.h; sourceTree = "<group>"; };
 		50DB889D1EB9A65900D88E01 /* OpenCVUtilities.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVUtilities.mm; path = OpenCVTest/OpenCVUtilities.mm; sourceTree = "<group>"; };
 		50DB889F1EB9A76200D88E01 /* ButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsViewController.h; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 		50940B251E7FD4C4006A03CD /* OpenCVTest */ = {
 			isa = PBXGroup;
 			children = (
-				50DB88951EB87B5300D88E01 /* image1.jpg */,
-				50DB88971EB87B5A00D88E01 /* image2.jpg */,
 				50940B291E7FD4C4006A03CD /* AppDelegate.h */,
 				50940B2A1E7FD4C4006A03CD /* AppDelegate.m */,
 				50940B2C1E7FD4C4006A03CD /* ViewController.h */,
@@ -215,8 +209,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50DB88941EB87AF300D88E01 /* Images.xcassets in Resources */,
-				50DB88981EB87B5A00D88E01 /* image2.jpg in Resources */,
-				50DB88961EB87B5300D88E01 /* image1.jpg in Resources */,
 				50940B361E7FD4C4006A03CD /* LaunchScreen.storyboard in Resources */,
 				50940B311E7FD4C4006A03CD /* Main.storyboard in Resources */,
 			);
