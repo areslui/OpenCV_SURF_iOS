@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger,inputType) {
+typedef NS_ENUM(NSInteger,inputType) {
     KeyPoints,
     DrawLineUsingBruteForce,
     DrawLineUsingFlann,
